@@ -1,0 +1,27 @@
+﻿# Generalplus IDE Solution File, Format Version 1.0.0
+# Warning: do not edit or delete this solution file!
+
+# ////////////////////////////////////////////////////
+# Begin Solution
+<Solution>
+	NAME : SK741
+	GUID : {B791B47B-776B-48B5-B98A-23B1F6F4E6A8}
+	STARTUP : {E82BD226-5BCE-4C7B-AC05-00ACCB32F2FD}
+	ACTIVECONFIGURATION : Release
+</Solution>
+# End Solution
+
+# ////////////////////////////////////////////////////
+# Begin Project
+<Projects>
+	COUNT : 1
+	<Project1>
+		NAME : 32P10_C_DEMO
+		GUID : {E82BD226-5BCE-4C7B-AC05-00ACCB32F2FD}
+		PATH : .\SK741.csuprjx
+		Dependencies : 
+	</Project1>
+</Projects>
+
+# End Project
+# ////////////////////////////////////////////////////
