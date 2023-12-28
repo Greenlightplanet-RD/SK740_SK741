@@ -30,11 +30,11 @@
 
 //#define K_SK705_ADC_INPUT_VOLTAGE_HYSTERESIS  101   // 0.5*4096*(0.39/(2+0.39))/3.3 = x *202.5
 
-#define K_SK740_MODE1_120LM_ADC_L             68      // Mode-1 current adjust current range Lowest  3R
-#define K_SK740_MODE1_120LM_ADC_H             71      // Mode-1 current adjust current range Highest
-#define K_SK740_LED_MODE_1_PWM_DUTY       15      // Mode-1 default PWM duty
-#define K_SK740_LED_MODE_2_PWM_DUTY       40      // Mode-2 default PWM duty
-#define K_SK740_LED_MODE_3_PWM_DUTY       80      // Mode-3 default PWM duty
+#define K_SK740_MODE1_120LM_ADC_L             87      // Mode-1 current adjust current range Lowest  3R
+#define K_SK740_MODE1_120LM_ADC_H             90      // Mode-1 current adjust current range Highest
+#define K_SK740_LED_MODE_1_PWM_DUTY       18      // Mode-1 default PWM duty
+#define K_SK740_LED_MODE_2_PWM_DUTY       32      // Mode-2 default PWM duty
+#define K_SK740_LED_MODE_3_PWM_DUTY       64      // Mode-3 default PWM duty
 
 #define K_SK741_MODE1_220LM_ADC_L             68      // Mode-1 current adjust current range Lowest    1.6R
 #define K_SK741_MODE1_220LM_ADC_H             71      // Mode-1 current adjust current range Highest
