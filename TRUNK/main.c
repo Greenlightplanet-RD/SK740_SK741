@@ -369,7 +369,7 @@ void InputVoltageLevel(void)
             }
             else if(g_u16AdcRegValue[E_ADC_CHL_VBAT]<ADC7V)
             {
-                if(u16Filter>=K_VOLT_DECTECT_UNDER_POWER_FILTER)
+                if(u16Filter>=K_VOLT_DECTECT_FILTER)
                 {
                     u16Filter=0;
                     eState=E_POWER_UNDERLOW;
@@ -401,7 +401,7 @@ void InputVoltageLevel(void)
             }
             else if(g_u16AdcRegValue[E_ADC_CHL_VBAT]<ADC7V)
             {
-                if(u16Filter>=K_VOLT_DECTECT_UNDER_POWER_FILTER)
+                if(u16Filter>=K_VOLT_DECTECT_FILTER)
                 {
                     u16Filter=0;
                     eState=E_POWER_UNDERLOW;
@@ -413,7 +413,7 @@ void InputVoltageLevel(void)
             }
             else if(g_u16AdcRegValue[E_ADC_CHL_VBAT]<ADC9V)
             {
-                if(u16Filter>=K_VOLT_DECTECT_LOW_POWER_FILTER)
+                if(u16Filter>=K_VOLT_DECTECT_FILTER)
                 {
                     u16Filter=0;
                     eState=E_POWER_LOWER;
@@ -432,7 +432,7 @@ void InputVoltageLevel(void)
         case E_POWER_OVERHIGH:
             if(g_u16AdcRegValue[E_ADC_CHL_VBAT] < ADC7V)
             {
-                if(u16Filter>=K_VOLT_DECTECT_UNDER_POWER_FILTER)
+                if(u16Filter>=K_VOLT_DECTECT_FILTER)
                 {
                     u16Filter=0;
                     eState=E_POWER_UNDERLOW;
@@ -445,7 +445,7 @@ void InputVoltageLevel(void)
             }
             else if(g_u16AdcRegValue[E_ADC_CHL_VBAT]<ADC9V)
             {
-                if(u16Filter>=K_VOLT_DECTECT_LOW_POWER_FILTER)
+                if(u16Filter>=K_VOLT_DECTECT_FILTER)
                 {
                     u16Filter=0;
                     eState=E_POWER_LOWER;
